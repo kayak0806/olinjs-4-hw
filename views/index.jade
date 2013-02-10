@@ -1,0 +1,22 @@
+extends layout
+
+
+
+block content
+  script(src='/javascripts/twitter.js')
+  
+  div.title
+    h1= 'Welcome, '+user 
+  
+  div.submit
+    form.submit(name='newTweet', id='newTweet')
+      |Tweet:
+      input(name='aTweet',id="aTweet")    
+      button.submit(type='submit')
+        | Submit
+
+
+  include tweets.jade
+
+
+

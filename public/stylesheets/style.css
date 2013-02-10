@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  background-color: #1D78F5;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div.title {
+    /*position: relative;*/
+    top: 0px
+}
+
+div.submit {
+    background-color: #a6a6a6;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    border: solid;
+    border-width: 4px;
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0px;
+    vertical-align: top;
+}
+
+form.submit {
+    width: 264px;
+}
+
+button.submit {
+    float: right;
+    border: solid;
+    border-width: 3px;
+    margin: 5px;
+}
+
+div.size{
+  display: inline-block;
+  /*height: 500px;*/
+  position: relative;
+  top: -74px;
+}
+
+div.allTweet{
+    background-color: #a6a6a6;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 30px;
+    border: solid;
+    border-width: 4px;
+    display: inline-block;
+    margin: 10px;
+}
