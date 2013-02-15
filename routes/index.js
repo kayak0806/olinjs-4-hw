@@ -28,7 +28,9 @@ exports.create = function(req,res){
 }
 
 exports.list = function(req,res){
-  Tweet.find(function(err, foundTwits) {
+  Tweet.find({}).populate('name')
+                .sort('-_id')
+                .exec(function (err, foundTwits) {
     res.render('tweets', {Twits: foundTwits});
   });
 }
